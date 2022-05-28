@@ -1,0 +1,130 @@
+body {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 20px 0 10px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #272142;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #525252;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+li strong {
+  color: #f65282;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+
+footer {
+  color: #885df1;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #272142;
+}
+
+.Weather {
+  max-width: 770px;
+  margin: 30px auto;
+  padding: 40px;
+  background: linear-gradient(
+    89.8deg,
+    rgb(204, 156, 223) 0.3%,
+    rgb(155, 219, 245) 20.4%,
+    rgb(245, 183, 208) 40.2%,
+    rgb(250, 186, 98) 62.9%,
+    rgb(234, 238, 240) 81.9%,
+    rgb(250, 245, 171) 99.2%
+  );
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  color: #878787;
+}
+.col-6 {
+  max-width: 50%;
+}
+
+.temperature-container {
+  margin-top: 30px;
+  text-align: right;
+}
+.temperature-container .temperature {
+  color: #212121;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+}
+.temperature-container .units {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.temperature-container .weather-image {
+  margin-right: 5px;
+  position: relative;
+  top: -20px;
+}
+.weather-info {
+  margin-top: 20px;
+}
+.Weather #search-form {
+  margin-top: 40px;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+.Weather #city-input {
+  background: #f9f7fe;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+}
+.Weather .search-button {
+  background: #885df1;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+  transition: all 0.15s ease-in-out;
+}
+.Weather .search-button:hover {
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.Weather .current-button {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+  transition: all 0.15s ease-in-out;
+}
+.Weather .current-button:hover {
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
