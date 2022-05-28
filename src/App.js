@@ -10,7 +10,11 @@ function App() {
       <div className="Container">
         <Weather defaultCity="Toronto" />
         <footer>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Ayane3/react-weather"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open-source code
           </a>{" "}
           by Ayane Manuel
