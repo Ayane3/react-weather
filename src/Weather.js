@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -39,25 +40,29 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <form onSubmit={handleSubmit}>
-          <div className="row">
-            <div className="col-6">
+          <div class="row">
+            <div class="col-6">
               <input
                 type="search"
                 placeholder="Enter a city.."
-                className="form-control"
+                class="form-control"
+                id="city-input"
                 autocomplete="off"
                 onChange={updateCity}
               />
             </div>
-            <div classNames="col-3">
+            <div class="col-3">
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary search-button w-100"
+                class="btn btn-primary search-button w-100"
               />
             </div>
-            <div className="col-3">
-              <button classNames="btn btn-primary current-button shadow-sm w-100">
+            <div class="col-3">
+              <button
+                class="btn btn-primary current-button shadow-sm w-100"
+                id="current-location-button"
+              >
                 Current
               </button>
             </div>
