@@ -45,8 +45,7 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter a city.."
-                className="form-control"
-                id="city-input"
+                className="form-control city-input"
                 autoComplete="off"
                 onChange={updateCity}
               />
@@ -59,10 +58,7 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-3">
-              <button
-                className="btn btn-primary current-button shadow-sm w-100"
-                id="current-location-button"
-              >
+              <button className="btn btn-primary current-button shadow-sm w-100">
                 Current
               </button>
             </div>

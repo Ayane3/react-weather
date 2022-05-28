@@ -88,12 +88,12 @@ footer {
 .weather-info {
   margin-top: 20px;
 }
-.Weather #search-form {
+.Weather Form {
   margin-top: 40px;
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 30px;
 }
-.Weather #city-input {
+.Weather .city-input {
   background: #f9f7fe;
   border: none;
   padding: 15px 20px;
