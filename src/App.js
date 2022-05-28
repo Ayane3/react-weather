@@ -13,6 +13,7 @@ function App() {
           <a href="/" target="_blank" rel="noreferrer">
             Open-source code
           </a>
+          {""}
           by Ayane Manuel
         </footer>
       </div>
