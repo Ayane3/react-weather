@@ -12,8 +12,7 @@ function App() {
         <footer>
           <a href="/" target="_blank" rel="noreferrer">
             Open-source code
-          </a>
-          {""}
+          </a>{" "}
           by Ayane Manuel
         </footer>
       </div>
